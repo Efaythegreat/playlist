@@ -1,7 +1,9 @@
 img{
   width:70px;
   height:70px;
+  border-bottom:2px solid grey;
 }
+
 
 .center{
   text-align:center;
@@ -10,10 +12,15 @@ img{
 .playlist{
   display:flex;
   justify-content:space-around;
+  
+  background-color:#434343;
+  color:white;
 }
 
 h1{
-  border-bottom:5px solid black;
+  color: #434343;
+  border-bottom:5px solid #D8D8D8;
+  
 }
 
 .inp{
@@ -29,4 +36,18 @@ h1{
   width:70px;
   height:70px;
   margin-bottom:20px;
+  border-bottom:2px solid grey;
+  color:#D8D8D8;
+}
+
+.title{
+  border-bottom:5px solid darkgreen;
+}
+
+.alert{
+  color:red;
+}
+
+body{
+  background-color:#777777;
 }
